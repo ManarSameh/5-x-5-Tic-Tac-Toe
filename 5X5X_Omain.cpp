@@ -73,6 +73,9 @@ int main() {
     // Display final results
     B->display_board();
     B->display_winner();
+    // Create the game manager and run the game
+    GameManager<char> x_o_game(B, players);
+    x_o_game.run();
 
     // Cleanup
     delete B;
