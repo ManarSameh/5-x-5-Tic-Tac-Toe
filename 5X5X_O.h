@@ -7,8 +7,8 @@
 #include <iomanip>
 #include <cstdlib>
 #include <ctime>
-#include <cctype> // for toupper()
-#include <limits> // for numeric_limits
+#include <cctype> 
+#include <limits> 
 
 using namespace std;
 
